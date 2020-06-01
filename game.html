@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js\variables.js"></script>
+    <script src="js\functions.js"></script>
+    
+</head>
+
+<body  scroll="no" style="overflow: hidden">
+    <audio id="my_audio" src="bg.mp3" autoplay loop="loop" ></audio>
+    <audio id="my_audio2" src="broken.mp3"></audio>
+    <audio id="my_audio3" src="win.mp3"></audio>
+    <audio id="my_audio4" src="lose.mp3"></audio>
+    <div class="container">
+    <div id="NavContainer">
+        
+    <h1 id ="namelabel" ></h1>
+
+        <div class="left">
+             <a href="mode.html"> <img src="images/back-arrow.png" id="back" width="40" alt=""> </a>
+
+             <input class="button" type="button" value="Score : 0" id="score">
+        </div>
+
+        <div class="right">
+             <input class="button" type="button" value="Time 2:00 " id="countdown">
+
+            <input class="button" type="button" value="Attempts : 3"  id="attempts">
+
+            <img src="images/pauses.png" alt="" width="40" class="pause" id="pause" onclick="pause()">  
+        </div>
+
+    </div>
+
+        <img class="chicken" src="images/elhabla.gif " alt="" style="left:100px" width="180">
+        <img class="chicken" src="images/elhabla.gif " alt="" style="left:500px" width="180">
+        <img class="chicken" src="images/elhabla.gif " alt="" style="left:1100px" width="180">
+        <img class="chicken" src="images/elhabla.gif " alt="" style="left:800px" width="180">
+    
+       <img src="images/basket.png" alt="" width="100px" id="Basket" style="position: absolute;bottom:0%">
+
+    <!-- form -->
+  
+  
+     <div id="formInput" >
+
+        <input type="text" id="username" placeholder="Enter Your Name" class="forminput">
+
+        <input type="radio" name="option" value="M" id="optionM" ><span class="optionM">Mouse</span>
+
+        <input type="radio" name="option" value="A" id="optionA" > <span class="optionA">Arrows</span>
+
+        <input type="button" id="formStartt" class="formStart" value="Start" onclick="start()"/>
+    
+    </div>
+   
+<!-- end form -->
+
+<!-- win page -->
+<div id="winId" >
+
+    <h1 class="winner">winner</h1>
+
+    <img src="images/winner.png"width="160" style="margin-top:16%; margin-left:38%" >
+
+    <a href="mode.html"><input type="submit" value=" play again" class="win"/> 
+
+</div><!-- WIN  -->
+
+<!-- lose page -->
+<div id="loseId" >
+    <h1 class="winner">loser</h1>
+
+    <img src="images/lose.png"width="160" style="margin-top:16%; margin-left:38%" >
+    
+    <a href="mode.html"><input type="submit" value=" play again" class="win"/> 
+</div><!-- lose  -->
+   
+</body>
+
+</html>

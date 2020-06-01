@@ -1,0 +1,285 @@
+ * {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+ }
+
+ input:hover
+ {
+    transform: scale(1.1);
+ }
+
+
+ .container {
+
+    min-height: 100vh;
+    background-image: url(../images/background.jpg );
+    background-position: center;
+    background-size: cover;
+ }
+
+ #NavContainer {
+    height: 40px;
+    width: 99.72%;
+    padding-bottom: 35px;
+    position: relative;
+ }
+
+ #ChickenContainer {
+    height: 10%;
+    width: 99.72%;
+    position: relative;
+   
+ }
+
+ .chicken
+  {
+    position: absolute;
+    top:18%;
+    left: 1px;
+    display: inline;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px;
+    overflow: hidden;
+
+   }
+
+ #EggsContainer {
+    height: 428px;
+    width: 99.72%;
+    border: 3px orange solid;
+    position: relative;
+
+ }
+
+ #BasketContainer {
+    width: 99.72%;
+    height: 110px;
+    position: relative;
+ }
+
+ #basket {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+ }
+
+
+ .hs {
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Algerian;
+ }
+
+ .left {
+    float: left;
+ }
+
+ .right {
+    float: right;
+ }
+ .button {
+
+   padding: 10px;
+   background-color: transparent;
+   border: 2px solid white;
+   border-radius: 30px;
+   color: #fff;
+   display: inline-block;
+   font-weight: bold;
+}
+ .easy,
+ .hard {
+
+    padding: 12px 25px;
+    border: 3px solid white;
+    border-radius: 16px;
+    font-size: 23px;
+    margin-top: 35px;
+    background-color:transparent;
+    color: #fff;
+ }
+
+ .hard {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    display: inline-block;
+ }
+
+ .easy {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    display: inline-block;
+ }
+
+ .pause {
+    position: absolute;
+    top: 18px;
+    right:2%;
+    
+ }
+ #attempts
+ {
+   position: absolute;
+   top: 18px;
+   right:13.5%;
+ }
+
+ #countdown
+ {
+   position: absolute;
+   top: 18px;
+   right:6%;
+ }
+
+ #back
+ {
+   position: absolute;
+   top: 18px;
+   left:2%;
+ }
+ #score
+ {
+   position: absolute;
+   top: 20px;
+   left:7%;
+ }
+
+ .name {
+    position: absolute;
+    top: 38%;
+    left: 44%;
+    padding: 8px;
+ }
+
+ h3 {
+    color: white;
+ }
+
+ .bomb {
+    display: inline;
+ }
+
+ .win{
+        
+        margin-left:35% ;
+        margin-top: 4%;
+        padding:9px 18px;
+        font-size:30px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(51, 28, 180);
+        border: white 3px solid;
+        border-radius:13px;         
+}
+
+#formInput
+{
+   background-color:white;
+   width:450px; 
+   height:250px ;
+   position: absolute;
+   top: 25%;left: 33%;
+   border-radius:3%;
+}
+#loseId,#winId
+{
+   width:45% ; height: 60%;
+   position:absolute;top:18%;left:28%;
+   background-color:white; 
+   border-radius:15px ;display: none;
+}
+
+#formInput
+{
+   position:absolute ;
+}
+.forminput
+{
+   padding: 7px 35px;
+   display: block;
+   border-radius:5px;
+   position: relative;
+   left: 27%;
+   top: 30%;
+
+}
+
+.formStart
+{
+   padding: 7px 30px;
+   display: block;
+   border-radius:10px;
+   background-color: rgb(165, 39, 123);
+   color: #fff;
+   font-size:18px;
+   position: relative;
+   left: 40%;
+   top: 58%;
+}
+
+#whiteCount
+{
+   position: absolute;
+   top: 21px;
+   left:14%;
+   padding:7px 15px;
+   border: 2px solid white;
+   border-radius: 35px;
+   font-size: 16px;
+   color: white;
+   background-color: transparent;
+  
+   display: inline-block;
+}
+.winner
+{
+   position: absolute;
+   top: 6%;
+   left: 34%;
+   color: rgb(42, 32, 136);
+   font-weight: bolder;
+   font-size:66px;
+   font-family: Algerian;
+}
+
+.optionA
+{
+   position: absolute;
+   top: 52%;
+   left: 73%;
+}
+#optionA
+{
+   position: absolute;
+   top: 53%;
+   left: 70%;
+}
+
+.optionM
+{
+   position: absolute;
+   top: 52%;
+   left: 26%;
+}
+
+#optionM
+{
+   position: absolute;
+   top: 53%;
+   left: 23%;
+}
+
+#namelabel
+{
+   position:absolute ;
+    left:36%; color:white; 
+    top:30% ; font-family: Algerian;
+}
